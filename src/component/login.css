@@ -1,0 +1,90 @@
+.loginpage {
+    width: 80%;
+    height: 90%;
+    background-color: rgb(79, 142, 142);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logincontent {
+    width: 80%;
+    height: 80%;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginContentLeft {
+    width: 40%;
+    height: 100%;
+    border-radius: 8px 0 0 8px;
+    background-color: rgb(20, 75, 75);
+    /* transform: skewX(-10deg); */
+}
+
+.loginContentRight {
+    width: 60%;
+    height: 100%;
+    background-color: rgb(249, 184, 64);
+    /* transform: skewX(-10deg); */
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ExistUser{
+    width: 60%;
+    height: 50%;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+.existuserhead{
+    border-radius: 8px;
+    box-shadow: 0 5px 5px #e8e7e7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+.alredyMember{
+    font-size: 18px;
+    font-weight: 800px;
+    color: rgb(249, 184, 64);
+}
+.dontHaveAcc{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+}
+span{
+    cursor: pointer;
+}
+
+.eyeicon{
+    position: absolute;
+    right: 30%;
+    padding: 2px;
+}
+input{
+    outline: none;
+    border: none;
+    width: 70%;
+    height: 30px;
+    padding: 2px;
+    color: rgb(13, 118, 13);
+    font-size: 18px;
+}
+.loginbtn{
+    width: 70%;
+    height: 50px;
+    border: none;
+    background-color: rgb(6, 78, 6);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
